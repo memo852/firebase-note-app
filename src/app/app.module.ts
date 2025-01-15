@@ -33,7 +33,7 @@ registerLocaleData(localeTr);
     DeleteNoteComponentComponent,
     AuthComponent,
 
-   // NotesPipePipe,
+ 
 
   ],
   imports: [
