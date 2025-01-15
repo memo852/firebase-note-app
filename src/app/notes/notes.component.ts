@@ -12,7 +12,7 @@ import {formatDate} from "@angular/common";
   selector: 'notes',
   templateUrl: './notes.component.html',
   styleUrl: './notes.component.css',
-  //providers: [NoteService,TrashNoteService]
+  
 })
 export class NotesComponent implements OnInit {
   notes: Note[] = [];
@@ -36,7 +36,7 @@ export class NotesComponent implements OnInit {
       });
 
     });
-    //this.datePosted = this.noteService.getRelativeTime();
+  
 
   }
 
