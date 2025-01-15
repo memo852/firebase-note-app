@@ -1,0 +1,15 @@
+
+.wrapper {
+  padding:  30px;
+  overflow: hidden;
+}
+
+.content{
+  height: 100vh;
+}
+.left-side
+{
+    border-right: 2px solid #e2e2e2;
+
+}
+

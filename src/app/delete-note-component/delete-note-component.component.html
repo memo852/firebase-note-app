@@ -1,0 +1,20 @@
+<div *ngIf="trash.length>0" class="card-container">
+  <ng-template [ngTemplateOutlet]="noteList" [ngTemplateOutletContext]="{trash:trash}"></ng-template>
+</div>
+<ng-template #noteList let-notes="trash">
+  <div *ngFor="let t of trash">
+    <div class="card">
+      <div class="wrapper">
+        <h3 class="card-title">{{t.title}}</h3>
+      </div>
+      <p class="posted-on"></p>
+      <p class="card-text">{{t.description}}</p>
+      <div class="wrapper wrapper-2">
+        <div>
+          <button class="restore-btn" (click)="sendNotes(t.id,t)">Restore</button>
+          <button (click)="deleteNote(t.id)" class="delete-btn">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>

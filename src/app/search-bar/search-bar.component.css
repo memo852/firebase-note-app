@@ -1,0 +1,43 @@
+.search-container {
+  padding: 30px;
+  border-bottom: 2px solid #e2e2e2;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.seacrh-box {
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.seacrh-box input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.seacrh-box i {
+  margin: 0px 10px;
+}
+.login-button {
+  padding: 10px 25px;
+  background: #fff;
+  border: 1px solid #55adf5;
+  color: #55adf5;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.login-button:hover{
+  background: #55adf5;
+  border: 1px solid #55adf5;
+  color: #fff;
+}

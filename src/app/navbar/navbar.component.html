@@ -1,0 +1,27 @@
+<div class="container d-flex flex-column">
+  <div class="wrapper-1 d-flex align-items-center  mb-4">
+    <span class="logo-text text-info">Note</span>
+    <i class="bi bi-journals"></i>
+  </div>
+  <button class="btn btn-info text-light" routerLink="/notes/create-note">
+    <i class="fa-solid fa-plus"></i>
+    <span>Add New Note</span>
+  </button>
+  <hr>
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li><a href="#" class="nav-link active" routerLink="/"><i class="fa-solid fa-file-lines me-2"></i><span>All Notes</span></a>
+    </li>
+    <li><a href="#" class="nav-link"><i class="fa-regular fa-heart me-2"></i><span>Favourites</span></a></li>
+    <li><a href="#" class="nav-link"><i class="fa-regular fa-bell me-2"></i><span>Notification</span></a></li>
+    <li><a href="#" class="nav-link"><i class="fa-solid fa-box-archive me-2"></i><span>Archive</span></a></li>
+    <li><a routerLink="/notes/trashNotes" class="nav-link"><i class="fa-regular fa-trash-can me-2"></i><span>Trash</span></a></li>
+    <li class="theme-container">
+      <div class="form-check form-switch form-check-reverse ">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+        <label class="form-check-label" for="flexSwitchCheckReverse"><i class="fa-solid fa-moon"></i> <span>Dark
+            mode</span>
+        </label>
+      </div>
+    </li>
+  </ul>
+</div>

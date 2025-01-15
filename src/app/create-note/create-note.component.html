@@ -1,0 +1,18 @@
+<h2>Add New Note</h2>
+<form #form="ngForm" (ngSubmit)="saveNote(form)" >
+  <div class="  p-3">
+    <div class="title-container mb-3">
+      <label for="title" class="form-label">Add Note Title</label>
+      <input type="text" class="input-title form-control" placeholder="Add title..." name="title" id="title"
+        [(ngModel)]="model.title" #title="ngModel" />
+    </div>
+    <div class="description-container mb-3">
+      <label for="description" class="form-label">Add Note Description</label>
+     <textarea class="card-text form-control" rows="18" name="description" placeholder="Add note..." id="description"
+        [(ngModel)]="model.description" #description="ngModel"></textarea>
+    </div>
+    <div class="wrapper wrapper-2">
+        <button type="submit" class="save-button">Save</button>
+    </div>
+  </div>
+</form>

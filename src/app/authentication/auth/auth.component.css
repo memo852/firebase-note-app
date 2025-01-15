@@ -1,0 +1,105 @@
+
+/* .container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #EFF1F5;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 25px;
+
+}
+
+.login-container {
+  width: 30vw;
+  height: 540px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.login-form a {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+
+}
+
+.forger-pass {
+
+  color: #000 !important;
+  font-weight: normal !important;
+  font-size: 13px ;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.login-form h1 {
+  letter-spacing: 1px;
+}
+
+.login-form h1 span {
+  color: #55adf5;
+}
+
+.login-form p {
+  margin: 35px 0;
+  line-height: 1.5;
+}
+
+.login-form div {
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  background: #EFF1F5;
+}
+
+.return-button {
+  background: #55adf5;
+  color: #fff;
+  padding: 5px 15px;
+  width: 100px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  cursor: pointer;
+} */
+
+.box-area{
+  width: 950px;
+  height: 600px;
+}
+.featured-image{
+  background-image: url("/undraw_Taking_notes_re_bnaf.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
