@@ -19,10 +19,7 @@ export class DeleteNoteService {
     return this.http
       .delete(this.url + 'notes/' + id + '.json')
       .subscribe(() => {
-        // addNoteToTrash(note: Note): Observable<Note> {
-        //   return this.http.post<Note>(`${this.url}/trash/${note.id}.json`, note);
-        // }
-        //this.noteTrashService.getTrashNotes().subscribe();
+       
         this.noteTrashService.addNoteToTrash(note).subscribe();
         console.log('Note deleted successfully');
       });
